@@ -1,4 +1,4 @@
 class Carousel{
     constructor(carousel){
-        this.carousel = carousel;
+        this.carousel = carousel; 
     
