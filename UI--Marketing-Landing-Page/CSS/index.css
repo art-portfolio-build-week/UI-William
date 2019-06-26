@@ -333,6 +333,7 @@ Footer {
     justify-content: space-between;
     width: 100%;
     padding: 30px;
+    margin-top: 50px;
 }
 @media (max-width: 500px) {
     footer {
@@ -395,7 +396,7 @@ h4:hover {
     background-image:url('https://images.unsplash.com/photo-1530305408560-82d13781b33a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1052&q=80');
     color: white;
     overflow: hidden;
-    flex-direction: column;
+    flex-direction: row;
     padding-bottom: 50px;
     margin-top: 25px;
     
@@ -420,58 +421,7 @@ h4:hover {
     font-family: 'montserrat', sans;
   }
 
-  /* ------CAROUSEL------------------------ */
+  /* ------Meet The Team------------------------ */
 
-  .carousel {
-      height: 400px;
-      width: 100%;
-      margin-top: 100px;
-      overflow: hidden;
-      justify-content: center;
-      display: flex;
-      position: relative;
-  }
-
-  .carousel img {
-      width: 100%;
-      padding: 5px;
-  }
-
-  .carousel a.img0 {
-    width: 100%;
-  
-@media (max-width: 500px) {
-    a.img {
-      width: 100%;
-    }
-  
-.carousel .left-button{
-    display: flex;
-    justify-content: center;
-    color: #081F32;
-    background-color: white;
-    cursor: pointer;
-    border-radius: 50%;
-    width: 50px;
-    height: 25px;
-    font-size: 40px;
-    padding:  15px;
-    margin-left: 10px;
-    margin-right: 10px;
-    top: 50%;
-}
-
-.carousel .right-button{
-    display: flex;
-    justify-content: center;
-    color: #081F32;
-    background-color: white;
-    cursor: pointer;
-    border-radius: 50%;
-    width: 50px;
-    height: 25px;
-    font-size: 40px;
-    padding:  15px;
-    margin-left: 10px;
-    margin-right: 10px;
-}
+ 
+   
