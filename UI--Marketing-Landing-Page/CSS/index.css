@@ -401,7 +401,7 @@ h4:hover {
     
 }
 @media (max-width: 500px) {
-    .midsection{
+    .midsection {
       width: 100%;
       overflow: hidden;
     }
