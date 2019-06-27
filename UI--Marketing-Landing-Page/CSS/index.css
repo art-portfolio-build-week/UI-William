@@ -137,10 +137,12 @@ img{
 }
 
 .middle-bar {
-    background-image:url('https://images.unsplash.com/photo-1473802048295-b1b7ee5ae64f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80');
-    color: white;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1487088678257-3a541e6e3922?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80');
     overflow: hidden;
-    flex-direction: column;
+    flex-direction: row;
+    padding-bottom: 200px;
+    text-align: center;
+
     
 }
 @media (max-width: 500px) {
@@ -151,10 +153,19 @@ img{
   }
 
 h2 {
-    font-size: 35px;
+    font-size: 70px;
     font-style: normal;
     padding: 40px 20px 20px 30px;
     font-family: 'Montserrat', sans;
+    text-align: center;
+    padding-top: 150px;
+    text-transform: uppercase;
+    color: white;
+}
+
+h2:hover{
+  transform: scale(1.2,1.2);
+  color: #D1D141
 }
 
 .signbtn {
@@ -166,7 +177,13 @@ h2 {
     font-family: 'Montserrat', sans;
     cursor: pointer;
     letter-spacing: 1px;
-}
+    border: none;
+  }
+
+  .signbtn:hover{
+    background-color: #f1f1f1;
+    color: #081f30;
+  }
 
 .tabs {
     border-bottom-color: gray;
@@ -381,7 +398,6 @@ Footer {
 
 .topper-bar h2{
   padding-top: 170px;
-  
   text-transform: uppercase;
   font-size: 70px;
 }
