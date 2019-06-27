@@ -164,7 +164,7 @@ h2 {
 }
 
 h2:hover{
-  transform: scale(1.2,1.2);
+  /* transform: scale(1.2,1.2); */
   color: #D1D141
 }
 
@@ -413,6 +413,8 @@ Footer {
   .featurestext{
     text-align: center;
     text-transform: uppercase;
+    color: #071622;
+    margin-top: -80px;
   }
 
   .textcontainer {
@@ -582,4 +584,6 @@ h4:hover {
      width: 100%;
    }
  }
+
+/* SIGN UP PAGE */
 
