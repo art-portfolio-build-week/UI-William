@@ -115,6 +115,10 @@ body {
     justify-content: center;
     align-items: flex-end;
 }
+
+.top-bar .container-right img{
+  padding-bottom: 10px;
+}
 @media (max-width: 500px) {
     .top-bar .container-center .container-left .container-right {
       display: flex;
@@ -143,10 +147,10 @@ span {
 h1 {
     color: white;
     font-style: normal;
-    font-size: 40px;
+    font-size: 45px;
     margin-top: 5px;
     margin-right: 10px;
-    font-family: Lobster, cursive;
+    font-family: "Lobster", cursive;
     text-decoration: none;
 
 }
@@ -213,8 +217,20 @@ h2:hover{
     border: none;
     color: #081f30;
     width: 200px;
+    font-weight: 700;
   }
+a:link{
+  color:white;
+  text-decoration: none;
+}
+a:visited{
+  color: white;
+  text-decoration: none;
+}
 
+a:hover{
+  text-decoration: underline #D1D141;
+}
   .signbtn:hover{
     background-color: #f1f1f1;
     color: #081f30;
@@ -558,6 +574,7 @@ h4:hover {
    text-align: center;
    background: #f1f1f1;
    display: flex;
+   
   
  }
 
@@ -587,15 +604,19 @@ h4:hover {
  }
 
  .pe:hover{
-   background: lightblue;
-   /* color: white; */
+   background: silver;
+   color: white;
  }
 
  .pe img{
-   width: 200px;
-   height: 200px;
+   width: 250px;
+   height: 250px;
    padding: 20px;
  }
+
+ .pe img:hover{
+   transform: scale(1.2,1.2);
+   }
 
  .p-name{
    margin: 16px 0;
@@ -603,7 +624,9 @@ h4:hover {
  }
 
  .p-name:hover{
-   color: white;
+   color: white;  
+    transform: scale(1.2,1.2);
+
  }
 
  .p-des{
@@ -613,6 +636,7 @@ h4:hover {
 
  .p-des:hover{
    color: white;
+   transform: scale(1.2,1.2);
  }
 
  .p-sm{
