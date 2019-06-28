@@ -614,14 +614,19 @@ h4:hover {
    padding: 20px;
  }
 
+ .pe img:hover{
+   transform: scale(1.2,1.2);
+   }
+
  .p-name{
    margin: 16px 0;
    text-transform: uppercase;
-   /* transform: scale(1.2,1.2); */
  }
 
  .p-name:hover{
-   color: white;
+   color: white;  
+    transform: scale(1.2,1.2);
+
  }
 
  .p-des{
@@ -631,6 +636,7 @@ h4:hover {
 
  .p-des:hover{
    color: white;
+   transform: scale(1.2,1.2);
  }
 
  .p-sm{
