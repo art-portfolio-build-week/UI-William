@@ -214,7 +214,18 @@ h2:hover{
     color: #081f30;
     width: 200px;
   }
+a:link{
+  color:white;
+  text-decoration: none;
+}
+a:visited{
+  color: white;
+  text-decoration: none;
+}
 
+a:hover{
+  text-decoration: underline #D1D141;
+}
   .signbtn:hover{
     background-color: #f1f1f1;
     color: #081f30;
